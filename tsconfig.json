@@ -1,0 +1,52 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "ES2015",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"noImplicitAny": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"noEmit": false,
+		"jsx": "react-jsx",
+		"baseUrl": "source",
+		"paths": {
+			"assets": [
+				"assets"
+			],
+			"components": [
+				"components"
+			],
+			"pages": [
+				"pages"
+			],
+			"utils": [
+				"utils"
+			],
+		}
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".ts",
+					".tsx",
+					".js",
+					".jsx"
+				]
+			}
+		}
+	},
+	"include": [
+		"source",
+		"config/webpack.common.js"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
