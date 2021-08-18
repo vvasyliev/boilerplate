@@ -31,7 +31,7 @@ module.exports = {
 					loader: 'css-loader',
 					options: {
 						modules: {
-							mode: 'ICSS',
+							mode: 'icss',
 						},
 						importLoaders: 1,
 					},
